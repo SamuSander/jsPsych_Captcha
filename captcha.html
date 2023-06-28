@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<html>
+    <head>
+        <script src="./jspsych/jspsych.js"></script>
+        <script src='./jspsych/plugin-html-button-response.js'></script>
+        <!-- Use custom css. Same as jsPsych css, with some additions. -->
+
+        <script>
+            var jsPsych = initJsPsych({
+              on_finish: function() {
+                jsPsych.data.displayData();
+              },
+            });
+        </script>
+    </head>
+
+    <body></body>
+    <!-- Change to audit_german.js for "classic" jsPsych version -->
+    <script src="./captcha.js"></script>
+
+    <script>
+        timeline = [captchaTrial];
+        jsPsych.run(timeline)
+    </script>
+
+</html>
