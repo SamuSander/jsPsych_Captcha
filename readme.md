@@ -34,10 +34,8 @@ The `on_finish` function is called when the trial is complete. It removes the in
 
 Please note that the `on_finish` function expects the `data` argument to contain a `styleElement` property, which is a reference to the injected style element. This property is added to the `data` object in the `on_load` function.
 
-For more information about creating custom jsPsych trials, please refer to the [jsPsych documentation](https://www.jspsych.org/overview/add-plugins/).
-
-
+For more information about creating custom jsPsych trials, please refer to the [jsPsych documentation](https://www.jspsych.org/).
 
 ## License
 
-This project uses the following license: [MIT License](<link>).
+This project uses the following license: [MIT License](https://opensource.org/license/mit/).
